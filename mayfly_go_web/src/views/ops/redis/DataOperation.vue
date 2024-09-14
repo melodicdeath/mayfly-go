@@ -125,6 +125,8 @@ const state = reactive({
     redisList: [] as any,
     dbList: [],
     query: {
+        pageNum: 1,
+        pageSize: 100,
         tagPath: null,
     },
     scanParam: {

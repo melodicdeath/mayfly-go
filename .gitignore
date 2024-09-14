@@ -18,3 +18,4 @@
 **/vendor/
 .idea
 out
+server/mayfly-go-linux-amd64

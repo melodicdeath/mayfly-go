@@ -12,5 +12,6 @@
 https://objs.gitee.io/mayfly-go-docs/dev/front/
 
 前端编译： yarn build
+复制dist至server static目录
 后端编译：CGO_ENABLE=0 GOOS=linux GOARCH=amd64 go build -o mayfly-go-linux-amd64 main.go
 scp mayfly-go-linux-amd64 cg-uat-mayfly:/yygk/mayfly/mayfly-go
